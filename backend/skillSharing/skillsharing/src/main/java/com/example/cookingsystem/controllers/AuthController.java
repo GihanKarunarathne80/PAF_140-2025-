@@ -1,12 +1,12 @@
-package com.example.skillsharing.controllers;
+package com.example.cookingsystem.controllers;
 
 
-import com.example.skillsharing.dtos.LoginDTO;
-import com.example.skillsharing.dtos.OAuth2UserDto;
-import com.example.skillsharing.models.User;
-import com.example.skillsharing.repositories.UserRepository;
-import com.example.skillsharing.security.JwtAuthResponse;
-import com.example.skillsharing.security.JwtTokenProvider;
+import com.example.cookingsystem.dtos.LoginDTO;
+import com.example.cookingsystem.dtos.OAuth2UserDto;
+import com.example.cookingsystem.models.User;
+import com.example.cookingsystem.repositories.UserRepository;
+import com.example.cookingsystem.security.JwtAuthResponse;
+import com.example.cookingsystem.security.JwtTokenProvider;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.authentication.AuthenticationManager;
