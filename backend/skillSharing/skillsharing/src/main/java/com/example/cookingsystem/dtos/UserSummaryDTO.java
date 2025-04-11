@@ -1,4 +1,4 @@
-package com.example.skillsharing.dtos;
+package com.example.cookingsystem.dtos;
 
 public class UserSummaryDTO {
     private String id;
