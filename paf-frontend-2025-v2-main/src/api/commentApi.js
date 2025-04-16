@@ -12,7 +12,6 @@ const commentApi = {
     }
   },
 
-  // Get comments by post ID
   getCommentsByPost: async (postId) => {
     try {
       const response = await axiosInstance.get(`/comments/post/${postId}`);
@@ -23,7 +22,7 @@ const commentApi = {
     }
   },
 
-  // Get comment by ID
+  
   getCommentById: async (id) => {
     try {
       const response = await axiosInstance.get(`/comments/${id}`);
