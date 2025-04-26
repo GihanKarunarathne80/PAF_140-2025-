@@ -16,3 +16,8 @@ application-*.properties
 node_modules/
 dist/
 
+
+# Secrets
+backend/skillSharing/skillsharing/src/main/resources/application.properties
+config/secrets/
+
