@@ -1,0 +1,23 @@
+
+# Java
+backend/skill_sharing/target/
+*.jar
+*.war
+
+# Environment
+.env
+application-*.properties
+
+# IDE
+.idea/
+*.iml
+
+# Frontend
+node_modules/
+dist/
+
+
+# Secrets
+backend/skillSharing/skillsharing/src/main/resources/application.properties
+config/secrets/
+
